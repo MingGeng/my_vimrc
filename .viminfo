@@ -1,0 +1,967 @@
+# 这个 viminfo 文件是由 Vim 7.4 所产生。
+# 如果想要自行修改请特别小心！
+
+# 文件被写的时候 ‘encoding’ 的值
+*encoding=euc-cn
+
+
+# hlsearch on (H) or off (h):
+~h
+# 上个 Search 图案：
+~MSle0~/user
+
+# 命令行 历史记录 (从新到旧)：
+:q
+:wq
+:NERDtree
+:ls
+:pwd
+:NERDTree
+:uuu
+:w
+:helptags ~/.vim/bundle/nerdtree/doc/
+:helptags ~/.vim/bundle/nerdtree/doc/NERDTree.txt
+:helptags
+:hel
+:ww
+:q!
+:42
+:30
+:28
+:26
+:82
+:32
+
+# 查找字符串 历史记录 (从新到旧)：
+?/user
+?/sql
+?/nmap
+?/F3
+?/PYTHON
+?/gethos
+?/gethostname
+?/geth
+?/get
+?/temp
+?/install
+?/base_dir
+?/TIME
+???
+?/space
+?/plugins
+?/key
+?/blockinf
+?/block
+?/write
+
+# 表达式 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 寄存器:
+"0	CHAR	0
+	gethostbyname(host)
+	#
+	#opened_ports = []
+	#
+	#for port in range(start_port, end_port + 1):
+	#    sock = socket(AF_INET, SOCK_STREAM)
+	#    sock.settimeout(10)
+	#    result = sock.connect_ex((target_ip, port))
+	#    if result == 0:
+	#        opened_ports.append(port)
+	#
+	#print("Opened ports:")
+	#
+	#for i in opened_ports:
+	#    print(i)
+	
+	
+	def tcp_test(port):
+	    sock = socket(AF_INET, SOCK_STREAM)
+	    sock.settimeout(10)
+	    result = sock.connect_ex((target_ip, port))
+	    if result == 0:
+	        lock.acquire()
+	        print "Opened Port:", port
+	        lock.release()
+	
+	
+	if __name__ == '__main__':
+	    host = sys.argv[1]
+	    portstrs = sys.argv[2].split('-')
+	    start_port = int(portstrs[0])
+	    end_port = int(portstrs[1])
+	    target_ip = gethost
+""1	LINE	0
+	
+"2	LINE	0
+	# Create your views here.
+"3	LINE	0
+	fromdd
+"4	LINE	0
+	  export PATH=$PATH:/usr/
+"5	LINE	0
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+"6	LINE	0
+	# Create your models here.
+"7	LINE	0
+	#dddd Create your views here.
+"8	LINE	0
+	    
+"9	LINE	0
+	        print(type(ten))
+"-	CHAR	0
+	f
+
+# 文件标记:
+'0  58  10  ~/.vimrc
+'1  75  20  ~/Code/allwork/allwork/settings.py
+'2  95  0  ~/Code/allwork/allwork/settings.py
+'3  40  6  ~/Code/myproject/NERD_tree_1
+'4  53  25  ~/.vimrc
+'5  10  0  ~/Code/myproject/manage.py
+'6  25  0  ~/Code/myproject/myproject/urls.py
+'7  9  66  ~/Code/myproject/share/models.py
+'8  71  8  ~/Code/django_fileshare/myproject/Share/views.py
+'9  1  12  ~/Code/Allwork/requirements
+
+# 跳转列表 (从新到旧):
+-'  58  10  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  75  20  ~/Code/allwork/allwork/settings.py
+-'  1  0  ~/Code/allwork/allwork/settings.py
+-'  95  0  ~/Code/allwork/allwork/settings.py
+-'  74  0  ~/Code/allwork/allwork/settings.py
+-'  40  6  ~/Code/myproject/NERD_tree_1
+-'  1  6  ~/Code/myproject/NERD_tree_1
+-'  1  0  ~/Code/myproject/myproject/urls.py
+-'  53  25  ~/.vimrc
+-'  57  1  ~/.vimrc
+-'  10  0  ~/Code/myproject/manage.py
+-'  1  0  ~/Code/myproject/manage.py
+-'  25  0  ~/Code/myproject/myproject/urls.py
+-'  9  66  ~/Code/myproject/share/models.py
+-'  1  0  ~/Code/myproject/share/models.py
+-'  71  8  ~/Code/django_fileshare/myproject/Share/views.py
+-'  1  0  ~/Code/django_fileshare/myproject/Share/views.py
+-'  1  12  ~/Code/Allwork/requirements
+-'  4  11  ~/Code/Allwork/requirements
+-'  50  54  /usr/local/bin/virtualenvwrapper.sh
+-'  1357  0  /usr/local/bin/virtualenvwrapper.sh
+-'  3  0  /usr/local/bin/virtualenvwrapper.sh
+-'  1  0  /usr/local/bin/virtualenvwrapper.sh
+-'  91  2  ~/.zshrc
+-'  1  0  ~/.zshrc
+-'  4  0  ~/.zshrc
+-'  95  0  ~/.zshrc
+-'  53  0  ~/python_scaner/port_scan.py
+-'  1  0  ~/python_scaner/port_scan.py
+-'  49  24  ~/python_scaner/port_scan.py
+-'  55  0  ~/python_scaner/port_scan.py
+-'  56  0  ~/python_scaner/port_scan.py
+-'  1  0  ~/Code/mysite/mysite/urls.py
+-'  1  0  ~/Code/mysite/lib/views.py
+-'  1  0  ~/Code/mysite/lib/models.py
+-'  1  30  ~/Code/mysite/lib/templates/lib/detail.html
+-'  1  0  ~/Code/mysite/mysite/settings.py
+-'  12  22  ~/Code/mysite/lib/models.py
+-'  39  0  ~/Code/mysite/mysite/settings.py
+-'  44  51  ~/Code/mysite/mysite/settings.py
+-'  122  0  ~/Code/mysite/mysite/settings.py
+-'  14  26  ~/Code/mysite/lib/models.py
+-'  109  26  ~/Code/mysite/mysite/settings.py
+-'  108  14  ~/Code/mysite/mysite/settings.py
+-'  24  0  ~/Code/mysite/mysite/urls.py
+-'  20  0  ~/Code/mysite/mysite/urls.py
+-'  21  14  ~/Code/mysite/mysite/urls.py
+-'  1  0  ~/Code/mysite/lib/urls.py
+-'  8  7  ~/Code/mysite/lib/urls.py
+-'  4  0  ~/Code/mysite/lib/views.py
+-'  7  38  ~/Code/mysite/lib/views.py
+-'  13  24  ~/Code/mysite/lib/views.py
+-'  49  8  ~/my_ansible/hosts
+-'  1  0  ~/my_ansible/hosts
+-'  47  8  ~/my_ansible/hosts
+-'  42  0  ~/my_ansible/hosts
+-'  6  0  ~/work_python/auto_deploy.py
+-'  1  0  ~/work_python/auto_deploy.py
+-'  47  0  /etc/ansible/hosts
+-'  1  0  /etc/ansible/hosts
+-'  101  0  ~/flydbs/fab_test/config.py
+-'  1  0  ~/flydbs/fab_test/config.py
+-'  9  14  /etc/default/rabbitmq-server
+-'  1  0  /etc/default/rabbitmq-server
+-'  39  0  ~/Code/add_file.py
+-'  1  0  ~/Code/add_file.py
+-'  16  0  ~/louplus_python/rmon/app.py
+-'  1  0  ~/louplus_python/rmon/app.py
+-'  19  43  ~/ansible_plays/lookup.py
+-'  1  0  ~/ansible_plays/lookup.py
+-'  1  14  ~/ansible_plays/lookup.txt
+-'  191  41  /etc/ansible/ansible.cfg
+-'  183  8  /etc/ansible/ansible.cfg
+-'  73  18  /etc/ansible/ansible.cfg
+-'  71  10  /etc/ansible/ansible.cfg
+-'  68  27  /etc/ansible/ansible.cfg
+-'  1  0  /etc/ansible/ansible.cfg
+-'  11  2  ~/ansible_plays/testdebug.yaml
+-'  1  0  ~/ansible_plays/testdebug.yaml
+-'  23  8  ~/python_data_analysis/test_random.py
+-'  1  0  ~/python_data_analysis/test_random.py
+-'  6  0  ~/python_data_analysis/test_random.py
+-'  25  16  ~/python_data_analysis/test_random.py
+-'  22  8  ~/python_data_analysis/test_random.py
+-'  1  0  ~/Code/myproject/myproject/urls.py
+-'  10  0  ~/Code/myproject/manage.py
+-'  1  0  ~/Code/myproject/manage.py
+-'  25  0  ~/Code/myproject/myproject/urls.py
+-'  9  66  ~/Code/myproject/share/models.py
+-'  1  0  ~/Code/myproject/share/models.py
+-'  71  8  ~/Code/django_fileshare/myproject/Share/views.py
+-'  1  0  ~/Code/django_fileshare/myproject/Share/views.py
+-'  58  10  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  75  20  ~/Code/allwork/allwork/settings.py
+
+# 文件内的标记历史记录 (从新到旧):
+
+> ~/Code/myproject/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/.vimrc
+	"	58	10
+	^	58	11
+	.	54	26
+	+	57	0
+	+	52	0
+	+	53	25
+	+	52	0
+	+	53	25
+	+	55	0
+	+	53	23
+	+	54	26
+	a	53	25
+
+> ~/Code/allwork/allwork/settings.py
+	"	75	20
+	^	75	21
+	.	43	5
+	+	42	13
+	+	43	5
+
+> ~/Code/myproject/myproject/urls.py
+	"	25	0
+
+> ~/Code/myproject/myproject/wsgi.py
+	"	1	0
+
+> ~/Code/myproject/share/views.py
+	"	1	0
+
+> ~/Code/myproject/templates/base.html
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Code/myproject/manage.py
+	"	10	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	61	0
+
+> ~/Code/myproject/share/models.py
+	"	9	66
+	^	8	89
+	.	8	89
+	+	9	0
+	+	9	0
+	+	8	89
+
+> ~/Code/django_fileshare/myproject/Share/views.py
+	"	71	8
+	^	13	63
+	.	72	0
+	+	1	0
+	+	3	0
+	+	1	41
+	+	2	46
+	+	11	48
+	+	12	59
+	+	13	49
+	+	11	56
+	+	13	62
+	+	72	0
+
+> ~/Code/Allwork/requirements
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+	+	2	12
+	+	1	12
+
+> /usr/local/bin/virtualenvwrapper.sh
+	"	50	54
+	^	50	55
+	.	50	53
+	+	50	53
+
+> ~/.zshrc
+	"	91	2
+	.	91	0
+	+	95	0
+	+	89	0
+	+	90	1
+	+	91	0
+	+	92	2
+	+	93	2
+	+	95	0
+	+	91	0
+	+	91	0
+
+> ~/python_scaner/port_scan.py
+	"	53	0
+	^	49	25
+	.	49	24
+	+	56	0
+	+	9	45
+	+	11	18
+	+	12	33
+	+	14	29
+	+	15	27
+	+	16	0
+	+	6	20
+	+	17	31
+	+	21	44
+	+	22	39
+	+	23	23
+	+	24	47
+	+	28	22
+	+	31	11
+	+	7	13
+	+	34	19
+	+	35	39
+	+	37	47
+	+	40	34
+	+	41	22
+	+	44	26
+	+	45	8
+	+	12	0
+	+	56	0
+	+	45	22
+	+	46	37
+	+	47	33
+	+	48	28
+	+	49	33
+	+	51	33
+	+	53	44
+	+	54	50
+	+	55	0
+	+	56	0
+	+	49	24
+
+> ~/Code/mysite/mysite/urls.py
+	"	1	0
+	^	24	1
+	.	22	33
+	+	4	0
+	+	2	0
+	+	1	22
+	+	19	37
+	+	21	15
+	+	22	33
+
+> ~/Code/mysite/lib/views.py
+	"	1	0
+	^	4	0
+	.	5	0
+	+	1	14
+	+	1	11
+	+	2	0
+	+	13	0
+	+	11	0
+	+	7	37
+	+	4	0
+	+	2	0
+	+	5	0
+
+> ~/Code/mysite/lib/models.py
+	"	1	0
+	^	12	23
+	.	12	23
+	+	1	15
+	+	2	0
+	+	15	0
+	+	5	25
+	+	6	43
+	+	7	45
+	+	8	48
+	+	9	53
+	+	12	23
+	+	13	43
+	+	14	27
+	+	15	41
+	+	7	41
+	+	12	23
+
+> ~/Code/mysite/lib/templates/lib/detail.html
+	"	1	30
+	^	1	31
+	.	1	30
+	+	1	30
+
+> ~/Code/mysite/mysite/settings.py
+	"	1	0
+	^	109	23
+	.	109	25
+	+	108	1
+	+	109	25
+
+> ~/Code/mysite/lib/urls.py
+	"	1	0
+	^	8	8
+	.	7	43
+	+	6	15
+	+	7	43
+
+> ~/my_ansible/hosts
+	"	49	8
+	^	49	9
+	.	49	8
+	+	48	7
+	+	49	8
+
+> ~/work_python/auto_deploy.py
+	"	6	0
+	^	6	0
+	.	5	0
+	+	3	10
+	+	4	13
+	+	5	0
+
+> /etc/ansible/hosts
+	"	47	0
+	^	44	5
+	.	44	5
+	+	44	6
+	+	45	2
+	+	44	5
+	+	46	6
+	+	47	8
+	+	46	5
+	+	44	5
+
+> ~/flydbs/fab_test/config.py
+	"	101	0
+	^	101	0
+	.	101	0
+	+	101	0
+
+> /etc/default/rabbitmq-server
+	"	9	14
+	^	9	15
+	.	9	15
+	+	9	15
+
+> ~/Code/add_file.py
+	"	39	0
+	^	39	0
+	.	39	0
+	+	8	18
+	+	9	22
+	+	10	21
+	+	11	17
+	+	12	16
+	+	14	26
+	+	16	21
+	+	30	0
+	+	19	68
+	+	21	12
+	+	22	20
+	+	29	4
+	+	23	18
+	+	24	26
+	+	26	0
+	+	24	23
+	+	26	28
+	+	27	56
+	+	28	16
+	+	29	0
+	+	49	0
+	+	33	21
+	+	36	31
+	+	39	0
+
+> ~/louplus_python/rmon/app.py
+	"	16	0
+	^	16	0
+	.	16	0
+	+	1	10
+	+	2	20
+	+	11	14
+	+	15	0
+	+	14	76
+	+	15	18
+	+	16	0
+
+> ~/ansible_plays/lookup.py
+	"	19	43
+	^	19	44
+	.	19	43
+	+	9	31
+	+	10	51
+	+	14	56
+	+	15	75
+	+	16	70
+	+	17	12
+	+	16	18
+	+	19	43
+
+> ~/ansible_plays/lookup.txt
+	"	1	14
+	^	1	15
+	.	1	14
+	+	1	14
+
+> /etc/ansible/ansible.cfg
+	"	191	41
+	^	62	1
+	.	62	0
+	+	62	0
+
+> ~/ansible_plays/testdebug.yaml
+	"	11	2
+	^	11	3
+	.	10	23
+	+	11	0
+	+	3	0
+	+	4	8
+	+	7	24
+	+	7	5
+	+	6	5
+	+	11	2
+	+	8	21
+	+	10	23
+
+> ~/python_data_analysis/test_random.py
+	"	23	8
+	^	6	0
+	.	23	0
+	+	7	11
+	+	5	4
+	+	8	7
+	+	9	37
+	+	27	16
+	+	27	0
+	+	27	0
+	+	5	18
+	+	9	0
+	+	7	44
+	+	27	26
+	+	3	0
+	+	5	10
+	+	27	28
+	+	27	20
+	+	27	8
+	+	27	8
+	+	27	12
+	+	27	12
+	+	5	0
+	+	27	0
+	+	27	24
+	+	27	47
+	+	27	13
+	+	27	23
+	+	27	25
+	+	27	0
+	+	27	0
+	+	27	12
+	+	27	26
+	+	27	42
+	+	27	24
+	+	27	0
+	+	27	27
+	+	27	12
+	+	27	0
+	+	27	0
+	+	27	24
+	+	27	22
+	+	5	16
+	+	27	11
+	+	27	4
+	+	27	56
+	+	27	8
+	+	27	0
+	+	27	34
+	+	27	16
+	+	27	0
+	+	5	18
+	+	27	0
+	+	26	0
+	+	14	68
+	+	15	0
+	+	14	9
+	+	22	39
+	+	18	8
+	+	19	8
+	+	21	11
+	+	22	8
+	+	14	0
+	+	20	36
+	+	22	28
+	+	22	26
+	+	5	15
+	+	22	27
+	+	23	18
+	+	24	31
+	+	25	17
+	+	23	21
+	+	23	19
+	+	5	0
+	+	7	0
+	+	5	0
+	+	23	0
+
+> ~/python_data_analysis/teq
+	"	1	0
+
+> ~/python_data_analysis/random.py
+	"	26	17
+	^	26	18
+	.	26	17
+	+	7	39
+	+	10	10
+	+	7	49
+	+	10	39
+	+	13	17
+	+	27	0
+	+	13	16
+	+	12	25
+	+	22	54
+	+	19	19
+	+	21	4
+	+	19	11
+	+	19	11
+	+	22	4
+	+	4	0
+	+	25	26
+	+	25	26
+	+	26	17
+
+> ~/test_docker.yaml
+	"	2	0
+	^	32	5
+	.	32	0
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	5
+	+	1	7
+	+	1	26
+	+	1	0
+	+	1	5
+	+	1	5
+	+	1	10
+	+	1	28
+	+	1	41
+	+	1	0
+	+	1	14
+	+	1	54
+	+	1	10
+	+	1	2
+	+	1	15
+	+	1	3
+	+	52	0
+	+	32	0
+
+> ~/test_apache.yaml
+	"	10	0
+	^	10	0
+	.	10	0
+	+	12	9
+	+	13	13
+	+	15	13
+	+	14	26
+	+	12	0
+	+	10	0
+
+> ~/Desktop/test_ap
+	"	1	0
+
+> ~/apache2.yml
+	"	14	2
+	^	14	3
+	.	14	2
+	+	2	14
+	+	3	12
+	+	6	31
+	+	7	13
+	+	14	0
+	+	10	31
+	+	14	2
+
+> ~/test.yaml
+	"	2	13
+	^	2	14
+	.	2	13
+	+	4	8
+	+	4	1
+	+	6	30
+	+	7	37
+	+	9	0
+	+	6	1
+	+	7	3
+	+	8	5
+	+	9	2
+	+	2	13
+
+> ~/test.yml
+	"	1	0
+
+> ~/auto_python/t_ps.py
+	"	61	0
+	^	61	0
+	.	61	0
+	+	42	138
+	+	29	8
+	+	29	48
+	+	29	7
+	+	29	41
+	+	29	21
+	+	29	26
+	+	29	3
+	+	29	7
+	+	29	0
+	+	27	0
+	+	28	26
+	+	28	0
+	+	27	8
+	+	28	0
+	+	32	0
+	+	30	4
+	+	31	0
+	+	31	38
+	+	31	0
+	+	32	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	42	33
+	+	42	0
+	+	42	12
+	+	62	0
+	+	61	0
+
+> ~/auto_python/psutil_new_netstat.py
+	"	59	101
+	^	59	102
+	.	59	101
+	+	59	101
+
+> /usr/lib/python2.7/dist-packages/psutil/__init__.py
+	"	1	0
+
+> ~/auto_python/psutil_netstat.py
+	"	46	0
+	^	46	10
+	.	46	9
+	+	8	8
+	+	9	48
+	+	10	13
+	+	11	38
+	+	12	40
+	+	13	37
+	+	14	36
+	+	18	44
+	+	19	19
+	+	20	67
+	+	23	19
+	+	26	40
+	+	30	49
+	+	31	35
+	+	44	0
+	+	34	39
+	+	36	23
+	+	37	42
+	+	42	43
+	+	45	26
+	+	46	9
+
+> ~/auto_python/netstat.py
+	"	47	0
+	^	82	14
+	.	82	13
+	+	50	8
+	+	50	44
+	+	50	0
+	+	61	6
+	+	59	0
+	+	61	4
+	+	60	6
+	+	59	29
+	+	61	44
+	+	62	96
+	+	63	31
+	+	50	8
+	+	50	7
+	+	50	20
+	+	50	17
+	+	28	0
+	+	28	0
+	+	88	0
+	+	91	19
+	+	92	52
+	+	95	41
+	+	102	0
+	+	1	21
+	+	2	21
+	+	6	10
+	+	8	0
+	+	50	0
+	+	8	0
+	+	14	10
+	+	15	8
+	+	15	0
+	+	25	0
+	+	24	0
+	+	23	0
+	+	22	0
+	+	21	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	15	25
+	+	16	22
+	+	17	22
+	+	18	23
+	+	19	23
+	+	20	23
+	+	21	24
+	+	22	23
+	+	23	22
+	+	24	20
+	+	25	21
+	+	50	27
+	+	58	0
+	+	27	0
+	+	27	0
+	+	50	0
+	+	48	0
+	+	31	40
+	+	33	33
+	+	38	29
+	+	41	33
+	+	42	24
+	+	43	99
+	+	44	21
+	+	45	14
+	+	88	7
+	+	68	56
+	+	69	33
+	+	70	33
+	+	87	0
+	+	71	33
+	+	73	65
+	+	74	0
+	+	70	8
+	+	72	8
+	+	71	12
+	+	73	8
+	+	74	31
+	+	78	8
+	+	75	25
+	+	77	0
+	+	77	0
+	+	79	23
+	+	80	18
+	+	84	23
+	+	85	29
+	+	29	0
+	+	103	0
+	+	82	13
+
+> ~/netstat.py
+	"	15	9
+	^	15	10
+	.	15	9
+	+	26	0
+	+	7	26
+	+	8	18
+	+	10	28
+	+	14	13
+	+	19	8
+	+	15	9
+
+> ~/down_all
+	"	6	0
+	^	6	0
+	.	5	0
+	+	4	0
+	+	3	20
+	+	5	0
+
+> ~/test_vim
+	"	5	0
+	^	5	0
+	.	4	3
+	+	4	3
+
+> ~/get.sh
+	"	17	0
+	^	17	0
+	.	16	0
+	+	15	2
+	+	16	0
+
+> /etc/mysql/my.cnf
+	"	32	12
+	^	32	13
+	.	32	12
+	+	35	0
+	+	33	38
+	+	32	12
+
+> ~/git_repos/test_jenkins/app.py
+	"	10	57
+	^	10	58
+	.	10	58
+	+	10	58
+
+> ~/[Vundle] Installer
+	"	4	0
+	.	1	0
+	+	1	0
